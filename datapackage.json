@@ -1,0 +1,14 @@
+{
+    "name": "ddf--gapminder--country_flag_svg",
+    "author": "Gapminder",
+    "description": "Country Flags",
+    "language": {
+        "name": "English",
+        "id": "en"
+    },
+    "translations": [],
+    "license": "CC-BY-4.0",
+    "title": "Country SVG flags",
+    "version": "0.0.1",
+    "resources": []
+}
