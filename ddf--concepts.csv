@@ -1,0 +1,6 @@
+concept,name,concept_type,domain
+geo,Geo,entity_domain,
+country,Country,entity_set,geo
+name,Name,string,
+flag_svg,Flag SVG,string,
+domain,Domain,string,
