@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="510" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="510" height="300" fill="#003893"/>
+<rect y="150" width="510" height="75" fill="#fff"/>
+<rect y="175" width="510" height="25" fill="#cf2027"/>
+<g transform="translate(191.25,187.5)" fill="#f7d116">
+<g id="a">
+<g id="s" transform="translate(0,-75)">
+<g id="c">
+<path id="t" transform="rotate(18,0,-15)" d="m0-15v15h7.5"/>
+<use transform="scale(-1,1)" xlink:href="#t"/>
+</g>
+<use transform="rotate(72)" xlink:href="#c"/>
+<use transform="rotate(144)" xlink:href="#c"/>
+<use transform="rotate(216)" xlink:href="#c"/>
+<use transform="rotate(288)" xlink:href="#c"/>
+</g>
+<use y="150" xlink:href="#s"/>
+</g>
+<use transform="rotate(72)" xlink:href="#a"/>
+<use transform="rotate(144)" xlink:href="#a"/>
+<use transform="rotate(216)" xlink:href="#a"/>
+<use transform="rotate(288)" xlink:href="#a"/>
+</g>
+</svg>
