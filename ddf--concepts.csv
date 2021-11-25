@@ -4,3 +4,4 @@ country,Country,entity_set,geo
 name,Name,string,
 flag_svg,Flag SVG,string,
 domain,Domain,string,
+un_state,UN states,boolean,

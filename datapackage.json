@@ -42,6 +42,9 @@
                         "name": "geo"
                     },
                     {
+                        "name": "un_state"
+                    },
+                    {
                         "name": "flag_svg"
                     }
                 ],
@@ -102,6 +105,24 @@
                 "value": "flag_svg",
                 "resources": [
                     "ddf--entities--geo",
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "un_state",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "un_state",
+                "resources": [
                     "ddf--entities--geo--country"
                 ]
             }
