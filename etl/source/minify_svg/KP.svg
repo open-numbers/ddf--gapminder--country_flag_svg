@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1600" height="800" viewBox="0 0 72 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="72" height="36" fill="#024FA2"/>
-<rect y="6" width="72" height="24" fill="#fff"/>
-<rect y="7" width="72" height="22" fill="#ED1C27"/>
-<circle cx="24" cy="18" r="8" fill="#fff"/>
-<g transform="translate(24,18) scale(7.75)" fill="#ED1C27">
-<g id="a">
-<polygon id="b" transform="translate(0,-1) rotate(18)" points="0 0 0 1 0.5 1"/>
-<use transform="scale(-1,1)" xlink:href="#b"/>
-</g>
-<use transform="rotate(72)" xlink:href="#a"/>
-<use transform="rotate(-72)" xlink:href="#a"/>
-<use transform="rotate(144)" xlink:href="#a"/>
-<use transform="rotate(216)" xlink:href="#a"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="800" viewBox="0 0 72 36"><path fill="#024FA2" d="M0 0h72v36H0z"/><path fill="#fff" d="M0 6h72v24H0z"/><path fill="#ED1C27" d="M0 7h72v22H0z"/><circle fill="#fff" cx="24" cy="18" r="8"/><g transform="matrix(7.75 0 0 7.75 24 18)" fill="#ED1C27"><g id="b"><path id="a" transform="rotate(18 3.157 -.5)" d="M0 0v1h.5z"/><use xlink:href="#a" transform="scale(-1 1)"/></g><use xlink:href="#b" transform="rotate(72)"/><use xlink:href="#b" transform="rotate(-72)"/><use xlink:href="#b" transform="rotate(144)"/><use xlink:href="#b" transform="rotate(-144)"/></g></svg>

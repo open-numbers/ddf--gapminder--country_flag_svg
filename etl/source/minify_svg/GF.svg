@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
-<polygon points="0 0 900 0 900 600" fill="#078930"/>
-<polygon points="0 0 900 600 0 600" fill="#FCDD09"/>
-<polygon transform="translate(450 300) scale(100)" points="0 -1 0.58779 0.80902 -0.95106 -0.30902 0.95106 -0.30902 -0.58779 0.80902" fill="#DA121A"/>
-</svg>
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg"><path fill="#078930" d="M0 0h900v600z"/><path fill="#FCDD09" d="m0 0 900 600H0z"/><path fill="#DA121A" d="m450 200 58.779 180.902-153.885-111.804h190.212L391.22 380.902z"/></svg>

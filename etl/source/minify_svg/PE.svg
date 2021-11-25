@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
-<rect width="900" height="600" fill="#D91023"/>
-<rect x="300" width="300" height="600" fill="#fff"/>
-</svg>
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg"><path fill="#D91023" d="M0 0h900v600H0z"/><path fill="#fff" d="M300 0h300v600H300z"/></svg>

@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="690" height="460" viewBox="0 0 138 92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="138" height="92" fill="#fff"/>
-<rect width="138" height="46"/>
-<g transform="translate(69,36)">
-<g id="a">
-<path id="c" d="m-30 0 30-5.7424v11.485z" fill="#fcd116"/>
-<use transform="rotate(22.5)" xlink:href="#c"/>
-<use transform="rotate(45)" xlink:href="#c"/>
-</g>
-<use transform="rotate(67.5)" xlink:href="#a"/>
-<use transform="rotate(135)" xlink:href="#a"/>
-</g>
-<rect y="36" width="138" height="20" fill="#0072c6"/>
-<path d="M0,0V92H138V0L69,92z" fill="#ce1126"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="690" height="460" viewBox="0 0 138 92"><path fill="#fff" d="M0 0h138v92H0z"/><path d="M0 0h138v46H0z"/><g transform="translate(69 36)"><g id="b"><path id="a" d="M-30 0 0-5.742V5.742z" fill="#fcd116"/><use xlink:href="#a" transform="rotate(22.5)"/><use xlink:href="#a" transform="rotate(45)"/></g><use xlink:href="#b" transform="rotate(67.5)"/><use xlink:href="#b" transform="rotate(135)"/></g><path fill="#0072c6" d="M0 36h138v20H0z"/><path d="M0 0v92h138V0L69 92z" fill="#ce1126"/></svg>

@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="2800" height="1400" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="2800" height="1400" fill="#12ad2b"/>
-<rect y="400" width="2800" height="600" fill="#ffce00"/>
-<path d="m0 0v1400l700-700" fill="#d21034"/>
-<g id="a" transform="translate(1400,700)">
-<g id="c">
-<path id="t" transform="rotate(18 0,-200)" d="m0-200v200h100"/>
-<use transform="scale(-1,1)" xlink:href="#t"/>
-</g>
-<use transform="rotate(72)" xlink:href="#c"/>
-<use transform="rotate(144)" xlink:href="#c"/>
-<use transform="rotate(216)" xlink:href="#c"/>
-<use transform="rotate(288)" xlink:href="#c"/>
-</g>
-<use x="700" xlink:href="#a"/>
-</svg>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2800" height="1400"><path fill="#12ad2b" d="M0 0h2800v1400H0z"/><path fill="#ffce00" d="M0 400h2800v600H0z"/><path d="M0 0v1400l700-700" fill="#d21034"/><g id="c" transform="translate(1400 700)" fill="#000"><g id="b"><path id="a" d="M0-200V0h100" transform="rotate(18 0 -200)"/><use xlink:href="#a" transform="scale(-1 1)"/></g><use xlink:href="#b" transform="rotate(72)"/><use xlink:href="#b" transform="rotate(144)"/><use xlink:href="#b" transform="rotate(216)"/><use xlink:href="#b" transform="rotate(288)"/></g><use xlink:href="#c" x="700"/></svg>
