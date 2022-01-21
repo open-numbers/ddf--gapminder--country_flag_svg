@@ -112,6 +112,15 @@
                 "primaryKey": [
                     "country"
                 ],
+                "value": "flag_svg",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
                 "value": "un_state",
                 "resources": [
                     "ddf--entities--geo--country"
