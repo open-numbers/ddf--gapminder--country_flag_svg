@@ -34,6 +34,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--dummy--by--country--time",
+            "path": "ddf--datapoints--dummy--by--country--time.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "time"
+                    },
+                    {
+                        "name": "dummy"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "time"
+                ]
+            }
+        },
+        {
             "name": "ddf--entities--geo--country",
             "path": "ddf--entities--geo--country.csv",
             "schema": {
@@ -136,7 +157,28 @@
                 ]
             }
         ],
-        "datapoints": [],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "country",
+                    "time"
+                ],
+                "value": "dummy",
+                "resources": [
+                    "ddf--datapoints--dummy--by--country--time"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "time"
+                ],
+                "value": "dummy",
+                "resources": [
+                    "ddf--datapoints--dummy--by--country--time"
+                ]
+            }
+        ],
         "synonyms": []
     }
 }
