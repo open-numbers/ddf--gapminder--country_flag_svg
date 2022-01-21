@@ -89,6 +89,24 @@
                 ],
                 "primaryKey": "geo"
             }
+        },
+        {
+            "name": "ddf--entities--tag",
+            "path": "ddf--entities--tag.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tag"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "parent"
+                    }
+                ],
+                "primaryKey": "tag"
+            }
         }
     ],
     "ddfSchema": {
@@ -166,6 +184,24 @@
                 "value": "un_state",
                 "resources": [
                     "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "parent",
+                "resources": [
+                    "ddf--entities--tag"
                 ]
             }
         ],

@@ -8,3 +8,5 @@ un_state,UN states,boolean,,_none
 dummy,dummy,measure,,_none
 time,time,time,,_none
 tags,Tags,string,,_none
+tag,Tag,entity_domain,,_none
+parent,Tag parent,string,,_none
