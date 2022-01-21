@@ -28,6 +28,9 @@
                     },
                     {
                         "name": "domain"
+                    },
+                    {
+                        "name": "tags"
                     }
                 ],
                 "primaryKey": "concept"
@@ -113,6 +116,15 @@
                     "concept"
                 ],
                 "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "tags",
                 "resources": [
                     "ddf--concepts"
                 ]
