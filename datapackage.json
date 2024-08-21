@@ -8,7 +8,7 @@
     "description": "Country Flags",
     "author": "Gapminder",
     "license": "CC-BY-4.0",
-    "created": "2021-11-24T03:44:04.450254+00:00",
+    "created": "2024-08-21T02:55:08.215321+00:00",
     "translations": [],
     "version": "1.1.0",
     "resources": [
@@ -36,7 +36,9 @@
                         "name": "scales"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -78,7 +80,9 @@
                         "name": "flag_svg"
                     }
                 ],
-                "primaryKey": "country"
+                "primaryKey": [
+                    "country"
+                ]
             }
         },
         {
@@ -93,7 +97,9 @@
                         "name": "flag_svg"
                     }
                 ],
-                "primaryKey": "geo"
+                "primaryKey": [
+                    "geo"
+                ]
             }
         },
         {
@@ -111,7 +117,9 @@
                         "name": "parent"
                     }
                 ],
-                "primaryKey": "tag"
+                "primaryKey": [
+                    "tag"
+                ]
             }
         }
     ],
@@ -148,7 +156,7 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "tags",
+                "value": "scales",
                 "resources": [
                     "ddf--concepts"
                 ]
@@ -157,13 +165,22 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "scales",
+                "value": "tags",
                 "resources": [
                     "ddf--concepts"
                 ]
             }
         ],
         "entities": [
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "flag_svg",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
             {
                 "primaryKey": [
                     "geo"
@@ -178,15 +195,6 @@
                 "primaryKey": [
                     "country"
                 ],
-                "value": "flag_svg",
-                "resources": [
-                    "ddf--entities--geo--country"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country"
-                ],
                 "value": "is--country",
                 "resources": [
                     "ddf--entities--geo--country"
@@ -197,24 +205,6 @@
                     "geo"
                 ],
                 "value": "is--country",
-                "resources": [
-                    "ddf--entities--geo--country"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country"
-                ],
-                "value": "un_state",
-                "resources": [
-                    "ddf--entities--geo--country"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo"
-                ],
-                "value": "un_state",
                 "resources": [
                     "ddf--entities--geo--country"
                 ]
@@ -235,6 +225,24 @@
                 "value": "parent",
                 "resources": [
                     "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "un_state",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "un_state",
+                "resources": [
+                    "ddf--entities--geo--country"
                 ]
             }
         ],
